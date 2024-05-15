@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5a8;
+  scroll-behavior: smooth;
+  max-width: 1300px;
+}
+body{
+  overflow-x:hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:35px;
+  font-family:'Readex Pro';
+  border-radius:1em;
+  background:orange;
+  border:black solid 5px;
+  
+}
+.titles{
+font-size:30px;
+position:relative;
+left:50px;
+font-family:'Trebuchet MS', sans-serif;
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #333; /* You can add a border for the frame */
+  position:relative;
+  float:right;
+  right:300px;
+  bottom:250px;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.companies img{
+width:200px;
+margin:30px;
+}
+
+@keyframes fade-inout{
+  0%{ opacity: 1;}
+  100%{ opacity: 0;}
+}
+.companies{
+  animation: fade-inout 1.5s infinite alternate;
+}
+
+.port{
+position:relative;
+display:flex;
+justify-content:center;
+}
+
+.portfolio{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.portfolio-image{
+  text-align: center;
+
+}
+
+.portfolio-image img{
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 50%; /* Make the images circular */
+  margin-bottom: 10px;
+  border: 3px solid black;
+}
+
+.view-button{
+  font-family:'Readex Pro';
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius:1em;
+  border:black solid 5px;
+  outline:none;
+  background:orange;
+  cursor:pointer;
+}
+.view-button:hover{
+  background:#db940f;
+}
+
+span{
+  box-shadow:0 0 5px orange, 0 0 25px orange;
+}
+
+li a hover{
+background:#db940f;
+}
+
+.contact img{
+  width:100px;
+  
+}
